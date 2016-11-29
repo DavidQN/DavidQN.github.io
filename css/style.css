@@ -1,0 +1,791 @@
+
+body {
+display:block;
+/*height:6825.23px; */
+margin:0px;
+overflow-x: hidden;
+padding:0px;
+/* width:876px; */
+
+height:100%;
+width:100%;
+
+/* not sure if i should add this */
+min-width: 800px;
+}
+
+
+/*///////////////
+
+added to fix problems
+
+////////////////*/
+
+
+nav {
+  width: 100%;
+  height: 7em;
+  align-items: center;
+  z-index: 5;
+}
+
+.row {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding-left: 35px;
+  padding-right: 35px;
+  justify-content: space-between;
+  align-items: center; }
+
+
+.left-col img.logo {
+  width: auto;
+  height: 4em;
+  z-index: 6;
+  transition: transform 0.35s ease;
+  perspective: 2000px; }
+
+.left-side {
+  width: 4em;
+}
+.right-side {
+width: 17em;
+}
+.first-ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.first-list {
+  overflow: hidden;
+  font: normal normal 400 10px "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.115em;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding-top: 2px;
+  cursor: pointer;
+}
+
+
+/* didn't follow the instructions right, come back and fix this */
+
+.first-list:hover .nav-line, .first-list:hover .nav-line, .first-list:hover .nav-line {
+  left: 0;
+}
+
+/* ^^^^^ NVMMMM!! IT WORKED! */
+
+.nav-line {
+  position: relative;
+  left: -300px;
+  width: 100%;
+  margin-top: 0.75em;
+  height: 2px;
+  background: white;
+  transition: all 0.25s ease;
+}
+
+
+.nav-top {
+  display: flex;
+  position: absolute; }
+
+h2 {
+  color:rgb(255, 255, 255);
+  cursor:pointer;
+  display:block;
+  font-family:sans-serif;
+  font-size:15px;
+  font-stretch:
+  normal;
+  font-style:normal;
+  font-weight:bold;
+  height:18px;
+  letter-spacing:1.15px;
+  line-height:normal;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  text-align:left;
+  text-transform:uppercase;
+  width:54px;
+}
+
+#intro {
+  background-color:rgb(38, 38, 38);
+  box-shadow:rgba(0, 0, 0, 0.34902) 0px 0px 350px 150px inset;
+  box-sizing:border-box;
+  display:block;
+  height:720px;
+  margin:0;
+  min-height:720px;
+  padding-bottom:112px;
+  padding-left:
+  35px;
+  padding-right:35px;
+  padding-top:192px;
+  /*
+  width:882px;
+  */
+  width: 100%;
+
+}
+
+
+//////////////////*
+#intro {
+  height: 85vh;
+    min-height: 45em;
+    background-color: #262626;
+    box-shadow: inset 0 0 350px 150px rgba(0,0,0,.35);
+    padding-top: 12em;
+    padding-bottom: 7em;
+}
+
+
+#intro-bg {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    min-height: 45em;
+    background-image: url(http://www.photos-public-domain.com/wp-content/uploads/2011/12/black-woven-fabric-close-up-texture.jpg);
+    background-size: 200px;
+    opacity: .375;
+}
+*////////////////////
+
+
+
+#intro-bg {
+  background-image: url(#);
+  background-size:200px;
+  display:block;
+  height:720px;
+  left:0px;
+  margin:0;
+  min-height:720px;
+  /*
+  opacity:0.375;
+  */
+  padding:0;
+  position:absolute;
+  top:0px;
+  width: 100%;
+/*
+width:882px;
+*/
+}
+
+.row-two {
+  display:flex;
+  height:489px;
+  justify-content:space-between;
+  margin:0;
+  padding:0;
+  width:812px;
+}
+.left-col {
+  display:block;
+  height:489px;
+  margin:0;
+  min-width:420px;
+  padding:0;
+  width:485px;
+  z-index:5;
+}
+
+.heading {
+  color:rgb(255, 255, 255);
+  display:block;
+  font-family:sans-serif;
+  font-size:52px;
+  font-weight:bold;
+  height:260px;
+  line-height:65px;
+  margin:0;
+
+/*
+opacity:1;
+*/
+
+  padding:0;
+  width:485px;
+}
+
+
+.small-white-line {
+  background-color:rgb(255, 255, 255);
+  display:block;
+  height:7px;
+  margin:0;
+/*
+opacity:1;
+*/
+  padding:0;
+  width:55px;
+  float:left;
+}
+
+
+
+.second-heading {
+  color:rgb(255, 255, 255);
+  display:block;
+  font-family:sans-serif;
+  font-size:16.8px;
+  font-weight:300;
+  height:120px;
+  letter-spacing:0.84px;
+  line-height:30px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:50.4px;
+
+/*
+opacity:1;
+*/
+  padding:0;
+  width:389px;
+}
+
+.seperator {
+  background-attachment:scroll;
+  background-clip:border-box;
+  background-color:rgba(0, 0, 0, 0);
+  background-image:linear-gradient(rgb(204, 204, 204) 0px, rgb(255, 255, 255) 100%);
+  background-origin:padding-box;
+  background-size:auto;
+  display:block;
+  height:320px;
+  margin:0;
+
+  /*
+  opacity:0.5;
+  */
+
+  padding:0;
+  position:relative;
+  width:100%;
+  }
+
+pic-another-one {
+  display:flex;
+  height:5px;
+  justify-content:flex-end;
+  margin:0;
+  padding:0;
+
+  /*****************
+maybe change to 100%?
+  ******************/
+  width:882px;
+}
+
+#about {
+  box-sizing:border-box;
+  display:block;
+  height:980px;
+  margin:0;
+  padding-bottom:48px;
+  padding-left:35px;
+  padding-right:35px;
+  padding-top:0px;
+  position:relative;
+  top:-160px;
+
+  width:100%;
+}
+
+.work-bio {
+  display:flex;
+  height:295px;
+  justify-content:flex-start;
+  margin:0;
+  padding-bottom:112px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-top:0px;
+
+  width:100%;
+}
+
+
+.about-left {
+  display:block;
+  height:295px;
+  margin:0;
+  min-width:208px;
+
+/*
+opacity:1;
+*/
+
+  padding:0;
+  text-align:right;
+  transform:matrix(1, 0, 0, 1, 0, 0);
+  transition-delay:0s;
+  transition-duration:0.45s;
+  transition-property:all;
+  transition-timing-function:ease;
+  width:208px;
+  }
+
+.flip-card {
+  border-bottom-color:rgb(255, 255, 255);
+  border-bottom-style:solid;
+  border-bottom-width:6px;
+  border-image-outset:0px;
+  border-image-repeat:stretch;
+  border-image-slice:100%;
+  border-image-source:none;
+  border-image-width:1;
+  border-left-color:rgb(255, 255, 255);
+  border-left-style:solid;
+  border-left-width:6px;
+  border-right-color:rgb(255, 255, 255);
+  border-right-style:solid;
+  border-right-width:6px;
+  border-top-color:rgb(255, 255, 255);
+  border-top-style:solid;
+  border-top-width:6px;
+  box-shadow:rgba(50, 50, 50, 0.32549) 5px 5px 12px 0px;
+  display:block;
+  height:185px;
+  margin:0;;
+  padding:0;
+  position:relative;
+  text-align:right;
+  width:185px;
+  z-index:1;
+}
+
+.first-about-me-photo {
+  backface-visibility:hidden;
+  display:block;
+  height:185px;
+  left:0px;
+  margin:0;
+  padding:0;
+  position:absolute;
+  text-align:right;
+  top:0px;
+  user-select:none;
+  width:185px;
+  z-index:2;
+}
+
+.second-about-me-photo {
+  backface-visibility:hidden;
+  display:block;
+  height:185px;
+  left:0px;
+  margin:0;
+  padding:0;
+  position:absolute;
+  text-align:right;
+  top:0px;
+  transform:matrix3d(-1, 0, -1.22465e-16, 0, 0, 1, 0, 0, 1.22465e-16, 0, -1, 0, 0, 0, 0, 1);
+  user-select:none;
+  width:185px;
+}
+
+#flip-description {
+  display:block;
+  height:45px;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  /*
+  opacity:0;
+  */
+
+  padding-bottom:0px;
+  padding-left:20px;
+  padding-right:40px;
+  padding-top:0px;
+  text-align:left;
+
+  /*****************
+    ****************
+
+  add the transition and transformation from other document
+
+  ******************
+  ******************/
+
+
+  width:125px;
+  z-index:0;
+}
+
+.description-second-pic {
+  color:rgb(140, 140, 140);
+  display:block;
+  font-family:sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  height:45px;
+  line-height:15px;
+  margin:0;
+  padding:0;
+  text-align:left;
+  width:125px;
+}
+
+
+.about-right {
+  display:block;
+  height:296.781px;
+  margin-bottom:0px;
+  margin-left:32px;
+  margin-right:0px;
+  margin-top:0px;
+
+/*
+opacity:1;
+*/
+
+  padding:0;
+  transform:matrix(1, 0, 0, 1, 0, 0);
+  transition-delay:0s;
+  transition-duration:0.75s;
+  transition-property:all;
+  transition-timing-function:ease;
+  width:525px
+}
+
+.who-am-i {
+  display:block;
+  height:0px;
+  margin:0;
+  min-width:208px;
+  padding:0;
+  text-align:right;
+  width:525px;
+}
+
+.h-three-class {
+  color:rgb(51, 51, 51);
+  display:block;
+  font-family:sans-serif;
+  font-size:28px;
+  font-weight:bold;
+  height:28px;
+  line-height:28px;
+  margin:0;
+  padding:0;
+  text-transform:uppercase;
+  width:5
+}
+
+.who-am-i-p {
+  color:rgb(51, 51, 51);
+  display:block;
+  font-family:sans-serif;
+  font-size:13.6px;
+  font-weight:normal;
+  height:40px;
+  line-height:20.4px;
+  margin:0;
+  padding:0;
+
+  /***************
+  ***************
+
+  change the width for the text so it doesn't look ugly near the photoshop
+
+  ***************
+  ***************/
+  width:525px;
+}
+
+.who-am-i-p-2 {
+  color:rgb(51, 51, 51);
+  display:block;
+  font-family:sans-serif;
+  font-size:13.6px;
+  height:120px;
+  line-height:20.4px;
+  margin:0;
+  padding:0;
+  width:
+  525px;
+}
+
+.who-am-i-p-3 {
+  color:rgb(51, 51, 51);
+  display:block;
+  font-family:sans-serif;
+  font-size:13.6px;
+  height:40px;
+  line-height:20.4px;
+  margin-bottom:13.6px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+  padding:0;
+  width:525px;
+}
+
+.another-divider {
+  border-bottom-color:rgb(211, 211, 211);
+  border-bottom-style:solid;
+
+  /***************
+  not sure what i did
+  ****************
+
+  border-bottom-width:1px;
+  border-image-outset:0px;
+  border-image-repeat:stretch;
+  border-image-slice:100%;
+  border-image-source:none;
+  border-image-width:1;
+
+***********************/
+
+  border-left-color:rgb(211, 211, 211);
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:rgb(211, 211, 211);
+  border-right-style:solid;
+  border-right-width:1px;
+  border-top-color:rgb(211, 211, 211);
+  border-top-style:solid;
+  border-top-width:1px;
+  display:block;
+  height:0px;
+  margin:0;
+  padding:0;
+  transform:matrix(1, 0, 0, 0.5, 0, 0);
+  width:1350px;
+}
+
+.slide-for-bear-pic {
+  display:flex;
+  height:10px;
+  justify-content:center;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:0px;
+
+  /*
+  opacity:1;
+  */
+
+  padding:0;
+  transform:matrix(1, 0, 0, 1, 0, 0);
+  transition-delay:0s;
+  transition-duration:0.75s;
+  transition-property:all;
+  transition-timing-function:ease;
+  width:730px;
+  z-index:0;
+}
+
+.bear-pic {
+
+display:block;
+height:560px;
+margin:0;
+padding:0;
+position:relative;
+top:-32px;
+user-select:none;
+width:414;
+}
+
+.my-knowledge {
+  align-items:flex-start;
+  display:flex;
+  height:394.25px;
+  justify-content:space-between;
+  margin-bottom:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-top:160px;
+
+  /*
+  opacity:1;
+  */
+
+  padding-bottom:0px;
+  padding-left:73px;
+  padding-right:73px;
+  padding-top:0px;
+  transform:
+  matrix(1, 0, 0, 1, 0, 0);
+  transition-delay:0.4s;
+  transition-duration:0.75s;
+  transition-property:all;
+  transition-timing-function:ease;
+  width:
+  584px;
+}
+
+.left-knowledge {
+  display:flex;
+flex-direction:column;
+flex-wrap:wrap;
+height:394.25px;
+justify-content:center;
+margin:0;
+padding:0;
+width:204px;
+}
+
+h4 {
+color:rgb(102, 102, 102);
+display:block;
+font-family:sans-serif;
+font-size:20px;
+font-stretch:normal;
+font-style:normal;
+font-variant-caps:normal;
+font-variant-ligatures:normal;
+font-variant-numeric:normal;
+font-weight:bold;
+height:20px;
+line-height:20px;
+margin:0;
+padding:0;
+text-align:center;
+text-transform:uppercase;
+width:204px;
+}
+
+.ul-list-knowledge {
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+height:358.25px;
+justify-content:center;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-bottom:0px;
+margin-left:0px;
+margin-right:0px;
+margin-top:16px;
+padding:0;
+width:204.391px
+}
+
+/***************************************
+****************************************
+
+stole this one from the 'recommended', still trying to figure it out, as it is
+still messed up. recommend to ask about this
+
+*****************************************
+****************************************/
+
+.list-knowledge-html, .list-knowledge-css   {
+  background-color:rgba(255, 255, 255, 0.4);
+  border-bottom-color:rgb(140, 140, 140);
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  border-left-color:rgb(140, 140, 140);
+  border-left-style:solid;
+  border-left-width:1px;
+  border-right-color:rgb(140, 140, 140);
+  border-right-style:solid;
+  border-right-width:1px;
+  border-top-color:rgb(140, 140, 140);
+  border-top-style:solid;
+  border-top-width:1px;
+  color:rgb(140, 140, 140);
+  cursor:default;
+  display:list-item;
+  font-family:sans-serif;
+  font-size:12px;
+  font-stretch:normal;
+  font-style:normal;
+  font-weight:600;
+  height:14px;
+  letter-spacing:0.15px;
+  line-height:normal;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin-bottom:6px;
+  margin-left:6px;
+  margin-right:6px;
+  margin-top:6px;
+  padding-bottom:8.4px;
+  padding-left:8.4px;
+  padding-right:8.4px;
+  padding-top:8.4px;
+  text-align:left;transition-delay:0s;
+  transition-duration:1.15s;
+  transition-property:all;
+  transition-timing-function:ease;
+  width:40;
+  z-index:3
+}
+
+.photoshop  {
+
+background-color:rgba(255, 255, 255, 0.4);
+border-bottom-color:rgb(140, 140, 140);
+border-bottom-style:solid;
+border-bottom-width:1px;
+border-left-color:rgb(140, 140, 140);
+border-left-style:solid;
+border-left-width:1px;
+border-right-color:rgb(140, 140, 140);
+border-right-style:solid;
+border-right-width:1px;
+border-top-color:rgb(140, 140, 140);
+border-top-style:solid;
+border-top-width:1px;
+color:rgb(140, 140, 140);
+cursor:default;
+display:list-item;
+font-family:sans-serif;
+font-size:12px;
+font-stretch:normal;
+font-style:normal;
+font-weight:600;
+height:14px;
+letter-spacing:0.15px;
+line-height:normal;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin-bottom:6px;
+margin-left:6px;
+margin-right:6px;
+margin-top:6px;
+padding-bottom:8.4px;
+padding-left:8.4px;
+padding-right:8.4px;
+padding-top:8.4px;
+text-align:left;
+transition-delay:0s;
+transition-duration:1.15s;
+transition-property:all;
+transition-timing-function:ease;
+width:67.7812px;
+z-index:3;
+}
+
+
+/**************************
+***************************
+***************************
+    footer
+
+**************************
+**************************/
